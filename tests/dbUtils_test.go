@@ -11,9 +11,9 @@ import (
 // var modelMap = make(map[string]interface{})
 var modelSlice []interface{}
 
-func init() {
-	GenerateTable()
-}
+//func init() {
+//	GenerateTable()
+//}
 
 func GenerateTable() {
 	dsn := dbUtils.GetDsn("root", "123456", "127.0.0.1", 3306, "beego-demo")
